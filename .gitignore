@@ -86,3 +86,10 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+dist/
+.temp/
+node_modules/
+.DS_Store
+
+.editorconfig
