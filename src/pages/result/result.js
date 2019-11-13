@@ -29,7 +29,7 @@ export default class Result extends Component {
   componentDidMount() {
     var that = this
     Taro.uploadFile({
-      url: 'http://127.0.0.1:5000/recognize',
+      url: 'http://ali.circleliu.cn:8080/recognize',
       filePath: this.$router.params.img,
       name: 'img',
       formData: {
